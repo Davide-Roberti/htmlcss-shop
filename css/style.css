@@ -32,8 +32,6 @@ img {
     position: absolute;
     top: 30px;
     right: 10px;
-
-
 }
 
 .cuore
@@ -48,6 +46,10 @@ img {
 
 img:hover + .cuore {
     display: inline-block;
+}
+
+img:hover {
+    cursor: pointer;
 }
 
 main {
