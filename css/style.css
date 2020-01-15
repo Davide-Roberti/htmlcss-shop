@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.primalinea, .secondalinea {
+    display: inline-block;
+    background-color: lightgrey;
+    width: 300px;
+    height: 400px;
+    position: relative;
+}
+
+.secondoblocco {
+    margin-top: 15px;
+}
+
+span {
+    background-color: green;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.trenta {
+    background-color: orange;
+}
