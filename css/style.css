@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+body {
+    background-image: url(https://www.muralswallpaper.co.uk/app/uploads/colourful-building-blocks-childrens-plain.jpg);
+    background-size: cover;
+    back
+}
+
 .primalinea, .secondalinea {
     display: inline-block;
     background-color: lightgrey;
