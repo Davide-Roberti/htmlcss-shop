@@ -16,7 +16,7 @@
     margin-top: 15px;
 }
 
-span {
+.sconti {
     background-color: green;
     position: absolute;
     top: 0;
@@ -34,4 +34,26 @@ img {
     right: 10px;
 
 
+}
+
+.cuore
+{
+    color: red;
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    font-size: 35px;
+    display: none;
+}
+
+img:hover + .cuore {
+    display: inline-block;
+}
+
+main {
+width: 930px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 10px;
+margin-bottom: 10px;
 }
