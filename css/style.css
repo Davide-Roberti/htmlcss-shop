@@ -9,12 +9,13 @@ body {
     background-size: cover;
 }
 
-.primalinea, .secondalinea {
+.linea {
     display: inline-block;
     background-color: lightgrey;
     width: 300px;
     height: 400px;
     position: relative;
+    text-align: center;
 }
 
 .secondoblocco {
@@ -37,6 +38,7 @@ img {
     position: absolute;
     top: 30px;
     right: 10px;
+
 }
 
 .cuore
@@ -44,23 +46,20 @@ img {
     color: red;
     position: absolute;
     bottom: 5%;
-    left: 50%;
+    width: 100%;
+    left: 0;
     font-size: 35px;
     display: none;
+
 }
 
-img:hover + .cuore {
-    display: inline-block;
-}
-
-img:hover {
-    cursor: pointer;
+.linea:hover .cuore {
+    display: block;
 }
 
 main {
 width: 930px;
-margin-left: auto;
-margin-right: auto;
+margin: 0 auto;;
 margin-top: 10px;
 margin-bottom: 10px;
 }
